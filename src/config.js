@@ -5,13 +5,24 @@
 module.exports = {
 
   // Cities to monitor — lat/lon centers with a scan radius
-  MONITORED_AREAS: [
-    { name: 'Chicago Downtown',    lat: 41.8827, lon: -87.6233, radiusKm: 2.0 },
-    { name: 'Chicago Wicker Park', lat: 41.9082, lon: -87.6780, radiusKm: 1.5 },
-    { name: 'Chicago Navy Pier',   lat: 41.8917, lon: -87.6086, radiusKm: 1.5 },
-    // Add your cities here:
-    // { name: 'Times Square NYC',  lat: 40.7580, lon: -73.9855, radiusKm: 1.5 },
-    // { name: 'Hollywood Blvd LA', lat: 34.1016, lon: -118.3401, radiusKm: 1.5 },
+    MONITORED_AREAS: [
+    { name: 'Chicago Downtown',      lat: 41.8827, lon: -87.6233, radiusKm: 2.0 },
+    { name: 'Chicago Wicker Park',   lat: 41.9082, lon: -87.6780, radiusKm: 1.5 },
+    { name: 'Chicago Navy Pier',     lat: 41.8917, lon: -87.6086, radiusKm: 1.5 },
+    { name: 'New York Times Square', lat: 40.7580, lon: -73.9855, radiusKm: 2.0 },
+    { name: 'New York Brooklyn',     lat: 40.6782, lon: -73.9442, radiusKm: 2.0 },
+    { name: 'Los Angeles Hollywood', lat: 34.0928, lon: -118.3287, radiusKm: 2.0 },
+    { name: 'Los Angeles Downtown',  lat: 34.0522, lon: -118.2437, radiusKm: 2.0 },
+    { name: 'Houston Downtown',      lat: 29.7604, lon: -95.3698, radiusKm: 2.0 },
+    { name: 'Atlanta Downtown',      lat: 33.7490, lon: -84.3880, radiusKm: 2.0 },
+    { name: 'Miami Downtown',        lat: 25.7617, lon: -80.1918, radiusKm: 2.0 },
+    { name: 'Dallas Downtown',       lat: 32.7767, lon: -96.7970, radiusKm: 2.0 },
+    { name: 'Philadelphia Downtown', lat: 39.9526, lon: -75.1652, radiusKm: 2.0 },
+    { name: 'Phoenix Downtown',      lat: 33.4484, lon: -112.0740, radiusKm: 2.0 },
+    { name: 'San Antonio Riverwalk', lat: 29.4241, lon: -98.4936, radiusKm: 2.0 },
+    { name: 'Indianapolis Downtown', lat: 39.7684, lon: -86.1581, radiusKm: 2.0 },
+    { name: 'Memphis Downtown',      lat: 35.1495, lon: -90.0490, radiusKm: 2.0 },
+    { name: 'St Louis Downtown',     lat: 38.6270, lon: -90.1994, radiusKm: 2.0 },
   ],
 
   // Keywords that signal a crowd event
