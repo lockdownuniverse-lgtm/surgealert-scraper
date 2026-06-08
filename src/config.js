@@ -43,7 +43,6 @@ module.exports = {
   // Platforms / sources to scrape
   // Each source module lives in src/sources/
   SOURCES: [
-    'twitter',    // X/Twitter search (requires API key or nitter scrape)
     'reddit',     // Reddit search via public JSON API (no key needed)
     'rss',        // Local news RSS feeds (free, no API key)
   ],
