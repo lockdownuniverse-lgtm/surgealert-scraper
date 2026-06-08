@@ -33,11 +33,15 @@ module.exports = {
     'police called', 'street closed', 'blocked traffic',
     'running from', 'stampede', 'fight broke out', 'brawl',
     'out of control', 'avoid downtown', 'stay away',
+    'looting', 'shots fired', 'dispersing', 'mass casualty',
+    'people running', 'avoid the area', 'large group',
+    'wilding', 'street takeover', 'road takeover',
   ],
 
   // High-signal keywords — a single match from this list is weighted heavier
   HIGH_SIGNAL_KEYWORDS: [
     'teen takeover', 'mob', 'riot', 'stampede', 'brawl', 'running from',
+    'looting', 'shots fired', 'mass casualty', 'street takeover', 'wilding',
   ],
 
   // Platforms / sources to scrape
