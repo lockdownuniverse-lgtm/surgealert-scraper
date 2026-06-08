@@ -45,7 +45,7 @@ module.exports = {
   SOURCES: [
     'twitter',    // X/Twitter search (requires API key or nitter scrape)
     'reddit',     // Reddit search via public JSON API (no key needed)
-    'nextdoor',   // Nextdoor public posts (scraper, limited)
+    'rss',        // Local news RSS feeds (free, no API key)
   ],
 
   // How often each source is scraped (cron expression)
