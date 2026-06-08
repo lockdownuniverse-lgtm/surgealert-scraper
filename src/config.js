@@ -46,6 +46,7 @@ module.exports = {
     'twitter',    // X/Twitter search (Nitter instances)
     'reddit',     // Reddit search via public JSON API (no key needed)
     'rss',        // Local news RSS feeds (free, no API key)
+    'bluesky',    // Bluesky AT Protocol (free, no API key, no rate limits)
   ],
 
   // How often each source is scraped (cron expression)

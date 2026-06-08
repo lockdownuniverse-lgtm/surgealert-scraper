@@ -15,11 +15,13 @@ const spikeDetector  = require('./spikeDetector');
 const redditSource   = require('./sources/reddit');
 const twitterSource  = require('./sources/twitter');
 const rssSource      = require('./sources/rss');
+const bskySource     = require('./sources/bluesky');
 
 const SOURCES = {
   reddit:  redditSource,
   twitter: twitterSource,
   rss:     rssSource,
+  bluesky: bskySource,
 };
 
 // Track which post IDs we've already seen to avoid duplicate counting
