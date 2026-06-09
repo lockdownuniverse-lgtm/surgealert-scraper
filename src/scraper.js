@@ -15,12 +15,14 @@ const spikeDetector  = require('./spikeDetector');
 const redditSource   = require('./sources/reddit');
 const twitterSource  = require('./sources/twitter');
 const rssSource      = require('./sources/rss');
+const openDataSource = require('./sources/opendata');
 const bskySource     = require('./sources/bluesky');
 
 const SOURCES = {
   reddit:  redditSource,
   twitter: twitterSource,
   rss:     rssSource,
+  opendata: openDataSource,
   bluesky: bskySource,
 };
 

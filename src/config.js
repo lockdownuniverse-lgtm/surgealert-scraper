@@ -48,6 +48,7 @@ module.exports = {
   // Each source module lives in src/sources/
   SOURCES: [
     'rss',        // Local news RSS feeds (free, no API key, works great)
+    'opendata',   // City open data APIs - Chicago, NYC, LA, Atlanta, Philadelphia
   ],
 
   // How often each source is scraped (cron expression)
