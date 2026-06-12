@@ -16,6 +16,7 @@ const redditSource   = require('./sources/reddit');
 const twitterSource  = require('./sources/twitter');
 const rssSource      = require('./sources/rss');
 const openDataSource = require('./sources/opendata');
+const tiktokSource   = require('./sources/tiktok');
 const bskySource     = require('./sources/bluesky');
 
 const SOURCES = {
@@ -23,6 +24,7 @@ const SOURCES = {
   twitter: twitterSource,
   rss:     rssSource,
   opendata: openDataSource,
+  tiktok:   tiktokSource,
   bluesky: bskySource,
 };
 
