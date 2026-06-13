@@ -49,7 +49,6 @@ module.exports = {
   SOURCES: [
     'rss',        // Local news RSS feeds (free, no API key, works great)
     'opendata',   // City open data APIs - Chicago, NYC, LA, Atlanta, Philadelphia
-    'tiktok',     // TikTok keyword search via SociaVault API (1 credit/request)
   ],
 
   // How often each source is scraped (cron expression)
